@@ -62,5 +62,5 @@ if choice == 'Home':
     st.markdown('Translate complex texts easily by writing or typing them using a keyboard or handwriting input')
 
 if choice == 'Photo Translator':
-    st.title("can not deploy this due to processing of ML model eats whole free usage of heroku..")
+    st.markdown("## i am not able to deploy this feature because i am using free heroku account. and this feature requires high processing power.")
 
