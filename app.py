@@ -24,11 +24,11 @@ choice = st.sidebar.radio('Select',['Home','Text Translator','Photo Translator']
 hide_streamlit_style = """<style> #MainMenu {visibility: hidden;} footer {visibility: hidden;} </style> """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 if st.sidebar.button("Instagram"):
-    webbrowser.open_new_tab("https://www.instagram.com/data_frame/")
+    webbrowser.open("https://www.instagram.com/data_frame/",new=2)
 if st.sidebar.button("Github"):
-    webbrowser.open_new_tab("https://github.com/yugdamor-git/")
+    webbrowser.open("https://github.com/yugdamor-git/",new=2)
 if st.sidebar.button("Youtube"):
-    webbrowser.open_new_tab("https://www.youtube.com/channel/UC-UBtO3u9lwh6S-SNxvIM4A")
+    webbrowser.open("https://www.youtube.com/channel/UC-UBtO3u9lwh6S-SNxvIM4A",new=2)
 
 LANGUAGES = ['None','afrikaans', 'albanian', 'amharic', 'arabic', 'armenian', 'azerbaijani', 'basque', 'belarusian', 'bengali', 'bosnian', 'bulgarian', 'catalan', 'cebuano', 'chichewa', 'chinese (simplified)', 'chinese (traditional)', 'corsican', 'croatian', 'czech', 'danish', 'dutch', 'english', 'esperanto', 'estonian', 'filipino', 'finnish', 'french', 'frisian', 'galician', 'georgian', 'german', 'greek', 'gujarati', 'haitian creole', 'hausa', 'hawaiian', 'hebrew', 'hindi', 'hmong', 'hungarian', 'icelandic', 'igbo', 'indonesian', 'irish', 'italian', 'japanese', 'javanese', 'kannada', 'kazakh', 'khmer', 'korean', 'kurdish (kurmanji)', 'kyrgyz', 'lao', 'latin', 'latvian', 'lithuanian', 'luxembourgish', 'macedonian', 'malagasy', 'malay', 'malayalam', 'maltese', 'maori', 'marathi', 'mongolian', 'myanmar (burmese)', 'nepali', 'norwegian', 'pashto', 'persian', 'polish', 'portuguese', 'punjabi', 'romanian', 'russian', 'samoan', 'scots gaelic', 'serbian', 'sesotho', 'shona', 'sindhi', 'sinhala', 'slovak', 'slovenian', 'somali', 'spanish', 'sundanese', 'swahili', 'swedish', 'tajik', 'tamil', 'telugu', 'thai', 'turkish', 'ukrainian', 'urdu', 'uzbek', 'vietnamese', 'welsh', 'xhosa', 'yiddish', 'yoruba', 'zulu', 'Filipino', 'Hebrew']
 
